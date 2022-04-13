@@ -1,18 +1,19 @@
 from flask import Flask, render_template, request
+from flask_app import app as application
 import smtplib
 
-app = Flask("__main__")
+application = Flask("__main__")
 
 MY_GMAIL = "vedanksrivastavakai@gmail.com"
 PASSWORD = "vedank1234567890"
 
 
-@app.route('/')
+@application.route('/')
 def home_page():
     return render_template('main.html')
 
 
-@app.route('/login', methods=['POST', 'GET'])
+@application.route('/login', methods=['POST', 'GET'])
 def login_page():
     if request.method == 'POST':
         data = request.form
@@ -31,4 +32,4 @@ def login_page():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, hhost="localhost")
+    application.run(debug=True, hhost="localhost")
