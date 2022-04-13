@@ -31,4 +31,4 @@ def login_page():
 
 
 if __name__ == "__main__":
-    application.run(debug=True, hhost="localhost")
+    application.run(debug=True, hhost="0.0.0.0")
