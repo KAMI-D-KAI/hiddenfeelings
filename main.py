@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request
-import requests
 import smtplib
 
 app = Flask("__main__")
