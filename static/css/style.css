@@ -1,0 +1,75 @@
+body{
+  font-family: 'Jost', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+.form-wrapper {
+  background: #36393f;
+  padding: 30px;
+  width: 65%;
+  margin: 0 auto;
+  border-radius:5px;
+}
+.form-wrapper h2 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 26px;
+}
+.form-wrapper p, .form-wrapper label {
+  color: #b9bbbe;
+}
+.form-wrapper label {
+  margin-bottom: 10px;
+}
+.form-wrapper .form-group{
+  margin-top:20px;
+}
+.form-wrapper a{
+  color: #187ca5;
+  text-decoration: none;
+  font-weight: 600;
+}
+.login-btn {
+  border: 0;
+  background: #5865f2;
+  color: #fff;
+  width: 100%;
+  display: inline-block;
+  font-weight: 600;
+  padding: 14px;
+  border-radius: 5px;
+  margin-top:20px;
+  margin-bottom: 10px;
+}
+.bg-bluee {
+  background: #5865f2;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.form-wrapper input.form-control {
+  background: #202225;
+  border: 0;
+  height: 50px;
+  color: #b9bbbe;
+}
+.form-control:focus{
+  box-shadow: none;
+}
+.text-bold{
+  font-weight: bold;
+}
+.qr-code-sctn {
+  text-align: center;
+  padding-top:20px;
+}
+.qr-code-sctn img{
+  margin-bottom:50px;
+}
+
+.p-link:hover {
+  text-decoration: underline;
+}
+
+.login-btn:hover {
+  background-color: #3B5998;
+}

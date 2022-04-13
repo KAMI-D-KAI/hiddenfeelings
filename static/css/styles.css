@@ -1,0 +1,59 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar {
+  background: #000;
+  color: #fff;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+.main-title {
+  color: #fff;
+  font-size: 5.75rem;
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto;
+}
+
+.main-text-1 {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  margin: 50px auto 0 auto;
+}
+
+.main-text-2 {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  margin: 50px auto 0 auto;
+}
+
+.login-btn {
+  margin: 5% 3% 5% 0;
+}
