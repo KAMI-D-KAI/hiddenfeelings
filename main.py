@@ -9,7 +9,7 @@ PASSWORD = "vedank1234567890"
 
 @app.route('/')
 def home_page():
-    return render_template('HF.html')
+    return render_template('main.html')
 
 
 @app.route('/login', methods=['POST', 'GET'])
