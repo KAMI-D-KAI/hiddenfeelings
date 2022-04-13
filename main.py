@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 import smtplib
 
-app = Flask("__main__")
+application = Flask("__main__")
 
 MY_GMAIL = "vedanksrivastavakai@gmail.com"
 PASSWORD = "vedank1234567890"
@@ -31,4 +31,4 @@ def login_page():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, hhost="localhost")
+    application.run(debug=True, hhost="localhost")
