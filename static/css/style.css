@@ -73,3 +73,23 @@ body{
 .login-btn:hover {
   background-color: #3B5998;
 }
+
+@media (max-width: 1020px) {
+  .form-wrapper{
+    padding: 30px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .qr-code-sctn {
+    display: none;
+  }
+
+
+  .bg-bluee {
+    background: #36393f;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+}
